@@ -1,0 +1,23 @@
+.header{
+  display:flex;
+}
+
+.logo{
+  display:flex;
+  align-items: center;
+}
+
+
+
+.nav li{
+  display:inline-block;
+
+}
+
+.logo h1 {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color:MediumAquamarine;
+
+}
