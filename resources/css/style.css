@@ -2,18 +2,30 @@
   display:flex;
   border-bottom:1px solid;
   padding-bottom:10px;
+  justify-content: flex-start;
+
 }
 
 .logo{
   display:flex;
   align-items: center;
+  border:1px solid;
+  flex-basis: 75%;
 }
 
 
 
 .nav li{
   display:inline-block;
+  padding-right: 30px;
+  font-weight: bold;
+  color: black;
+}
 
+a{
+  color:black;
+  font-family: Verdana;
+  font-size: 14px;
 }
 
 .logo h1 {
@@ -21,5 +33,11 @@
   font-size: 14px;
   font-weight: bold;
   color:MediumAquamarine;
+  padding-left:10px;
+}
 
+.container{
+
+  width:auto;
+  height:100%;
 }
